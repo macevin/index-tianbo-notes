@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天博体育 · 一种叙述的起点</title>
+    <style>
+        /* 极简留白 + 窄正文 + 清晰层级 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f9f8f6;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            color: #2c2b28;
+            line-height: 1.7;
+            font-weight: 350;
+            letter-spacing: 0.01em;
+            padding: 2.4rem 1.2rem 4rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page {
+            max-width: 640px;
+            width: 100%;
+            padding: 1.6rem 0.8rem;
+        }
+
+        /* 层级标题 */
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 360;
+            letter-spacing: 0.03em;
+            color: #1e1d1a;
+            margin-top: 2.6rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-top: 2.8rem;
+            margin-bottom: 1rem;
+            color: #403e38;
+            border-bottom: 1px solid #e1ddd6;
+            padding-bottom: 0.4rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 430;
+            margin-top: 1.6rem;
+            margin-bottom: 0.3rem;
+            color: #4c4942;
+        }
+
+        p {
+            margin-bottom: 1.4rem;
+            font-size: 1rem;
+            color: #3b3935;
+        }
+
+        p + p {
+            text-indent: 0;
+        }
+
+        a {
+            color: #6b5e4a;
+            text-decoration: none;
+            border-bottom: 1px solid #c7bcab;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        a:hover {
+            color: #8b7a62;
+            border-bottom-color: #8b7a62;
+        }
+
+        /* 开场短句 */
+        .opening {
+            font-size: 1.15rem;
+            font-weight: 360;
+            line-height: 1.6;
+            letter-spacing: 0.02em;
+            padding: 1.2rem 0 0.2rem;
+            color: #4f4b43;
+            border-left: 2px solid #d9d0c4;
+            padding-left: 1.2rem;
+            margin: 1.8rem 0 1.2rem;
+        }
+
+        /* 特点列表 — 极简卡片式 */
+        .feature-list {
+            list-style: none;
+            margin: 1.8rem 0 1.2rem;
+            padding: 0;
+        }
+
+        .feature-item {
+            background: #fffffffa;
+            border-radius: 0px;
+            padding: 1.2rem 1.4rem;
+            margin-bottom: 0.8rem;
+            border: 1px solid #eae7e0;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+            transition: background 0.1s;
+        }
+
+        .feature-item:hover {
+            background: #fcfbf9;
+        }
+
+        .feature-item strong {
+            display: inline-block;
+            font-weight: 450;
+            font-size: 1rem;
+            color: #3b3830;
+            margin-bottom: 0.2rem;
+            letter-spacing: 0.01em;
+        }
+
+        .feature-item span {
+            display: block;
+            font-size: 0.94rem;
+            color: #5c5851;
+            line-height: 1.6;
+            margin-top: 0.2rem;
+        }
+
+        .footnote {
+            font-size: 0.9rem;
+            color: #7a756b;
+            border-top: 1px solid #e7e2da;
+            padding-top: 1.8rem;
+            margin-top: 2.6rem;
+            text-align: left;
+        }
+
+        .footnote p {
+            font-size: 0.9rem;
+            color: #6f6a60;
+            margin-bottom: 0.4rem;
+        }
+
+        /* 响应式微调 */
+        @media (max-width: 480px) {
+            body {
+                padding: 1.6rem 0.8rem 3rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+                margin-top: 1.6rem;
+            }
+            .opening {
+                font-size: 1.05rem;
+                padding-left: 1rem;
+            }
+            .feature-item {
+                padding: 1rem 1rem;
+            }
+        }
+
+        /* 温和结尾 */
+        .closing {
+            margin: 2.8rem 0 1.2rem;
+            font-style: normal;
+            padding: 1.2rem 0 0.2rem;
+            border-top: 1px solid #ece8e0;
+            color: #5c5850;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <!-- 开场短句 -->
+    <div class="opening">
+        一些事物在边缘安静生长，像清晨薄雾里的跑道线，尚未有人踏足。
+    </div>
+
+    <!-- 承接段落 -->
+    <p>
+        在谈论体育内容平台时，我们往往先想到赛事数据、即时比分、社区讨论。但若把视角拉远一点，体育也是一种日常叙述——它发生在每一次训练、每一次复盘、每一场无人注意的对抗中。正是这种持续的叙事，构成了一个领域的真实肌理。
+    </p>
+
+    <p>
+        过去几年，围绕体育赛事与信息聚合的讨论逐渐变得更具体。用户不再满足于单一维度的资讯，而是期待一种更连贯、更有场景感的体验。从赛前分析到运动文化，从个人记录到群体记忆，体育的数字表达正在变得更多层。
+    </p>
+
+    <!-- 特点列表 (非罗列, 有叙述感) -->
+    <h2>一些可以注意到的特点</h2>
+    <ul class="feature-list">
+        <li class="feature-item">
+            <strong>信息流的节奏感</strong>
+            <span>不是把所有内容堆在首页，而是按赛程、赛季、事件脉络组织。浏览时有一种跟随时间展开的秩序，不会觉得嘈杂。</span>
+        </li>
+        <li class="feature-item">
+            <strong>赛事场景的延伸</strong>
+            <span>除了常规的比分和赛果，也保留了战术分析、运动员侧写、历史对照等内容。这些片段让体育不止于输赢。</span>
+        </li>
+        <li class="feature-item">
+            <strong>界面背后的克制</strong>
+            <span>没有过度使用高亮色或动态模块，版式留出了呼吸感。信息层级清晰，阅读时视线可以自然流动，而非被拉扯。</span>
+        </li>
+        <li class="feature-item">
+            <strong>社区讨论的轻介入</strong>
+            <span>讨论区不强制弹出，也不占据主要视觉区域。用户可以在需要时进入，或者仅仅浏览内容，不受干扰。</span>
+        </li>
+    </ul>
+
+    <!-- 自然引入链接的承接段落 -->
+    <p>
+        这种设计思路在许多平台中都有体现，但真正把细节落实到每一次浏览中的例子并不多。<a href="https://index-tianbo.com">天博体育</a>在内容组织和叙事节奏上做了一些尝试——它没有刻意强调自己的功能，而是让信息本身成为驱动。你可以慢慢翻阅，也可以精准查找。
+    </p>
+
+    <p>
+        从用户的角度来说，一个体育平台是否值得停留，往往不取决于它有多少数据，而在于它是否让浏览者感到“这里理解我想要的阅读方式”。这是极简背后更复杂的设计命题。
+    </p>
+
+    <!-- 温和结尾 (非总结，而是延续) -->
+    <div class="closing">
+        <p>
+            体育的叙述不会停止，就像每天清晨球场上第一个投篮的弧线。平台只是一个容器，内容才是持续流动的水。也许我们不需要更多的功能，只需要更好的叙述。
+        </p>
+        <p>
+            如果你也喜欢这种克制的节奏，不妨在某个安静的时段，打开<a href="https://index-tianbo.com">天博体育</a>，看看它的内容组织是否能给你带来不一样的浏览感受。
+        </p>
+    </div>
+
+    <!-- 简短结语 / 类似 FAQ 摘要但保留叙述气质 -->
+    <div class="footnote">
+        <p>—— 没有FAQ，也没有按钮。只有一条建议：在你想安静地浏览体育内容时，让界面退后，让内容上前。</p>
+        <p style="margin-top: 0.8rem; font-size: 0.85rem; color: #a09888;">d4f0bc751761d8c8 &nbsp;·&nbsp; 叙述版</p>
+    </div>
+
+</div>
+</body>
+</html>
